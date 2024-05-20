@@ -1,0 +1,1 @@
+export let message = "This is a Message!";
