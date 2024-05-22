@@ -4,7 +4,7 @@ while(t){
     let [x,h] = input.question('x,h: ').split(' ').map(Number);
     let counter = 0;
     while(h>0){
-        if(counter<=5){
+        if(counter<5){
             h=(h-Math.floor(x/2));
             counter++;
         }
