@@ -1,0 +1,11 @@
+.header{
+    height: 10vh;
+    background-color: pink;
+    display: flex;
+    justify-content:space-around ;
+    justify-items: center;
+}
+.links{
+    display: flex;
+    gap: 3em;
+}
