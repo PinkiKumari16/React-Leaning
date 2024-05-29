@@ -1,12 +1,11 @@
-import './Flipper.css';
 import React from 'react'
 import Header from './header/Header';
-
+import Body from './body/Body';
 export const Flipper = () => {
   return (
     <>
       <Header />
-      <div>Flipper</div>
+      <Body />
     </>
   )
 }

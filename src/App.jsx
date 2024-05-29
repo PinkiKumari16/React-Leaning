@@ -8,8 +8,8 @@ function App() {
 
   return (
     <>
-      {/* <Counter /> */}
-      <Flipper />
+      <Counter />
+      {/* <Flipper /> */}
     </>
   )
 }

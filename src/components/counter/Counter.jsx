@@ -1,11 +1,36 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './Counter.css'
 
 const Counter = () => {
   let [Marks, setMarks] = useState(0);
-  let numDecrease = ()=>setMarks(--Marks);
-  let numReset = ()=>setMarks(0);
-  let numIncrease = () => setMarks(++Marks);
+  let [color, setColor] = useState('black');
+
+  let numDecrease = ()=>{
+    if(--Marks <0){
+      setColor('red');
+    }
+    else if(Marks === 0){
+      setColor('black')
+    }
+    setMarks(Marks);
+  }
+  let numReset = ()=>{
+    setMarks(0);
+    setColor('black')
+  }
+  let numIncrease = () => {
+    if(++Marks > 0){
+      setColor('green');
+    }
+    else if(Marks === 0){
+      setColor('black')
+    }
+    setMarks(Marks);
+    
+  }
+  useEffect(()=>{
+    document.querySelector('#marks').style.color = color;
+  },[color])
   return (
     <>
       <div className='contener'>

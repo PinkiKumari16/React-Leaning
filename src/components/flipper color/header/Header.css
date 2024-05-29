@@ -1,9 +1,10 @@
 .header{
-    height: 10vh;
+    height: 8vh;
     background-color: pink;
     display: flex;
     justify-content:space-around ;
     justify-items: center;
+    line-height: 8vh;
 }
 .links{
     display: flex;
