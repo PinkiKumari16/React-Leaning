@@ -1,4 +1,4 @@
-const data = [
+[
     {
         "image" : "./pinki.jpeg" ,
         "name" : "Pinki",
@@ -6,16 +6,16 @@ const data = [
         "content" : "I'am baby meggings health goth +1, Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humlebrag pickled coloring book salvia hoodle, cold-pressed four doliar toast everyday carry."
     },
     {
-        "image" : "./pinki.jpeg" ,
+        "image" : "./rinki.jpeg" ,
         "name" : "Rinki",
-        "professtion" : "FRONT END DEVELOPER",
+        "professtion" : "FULL STACK DEVELOPER",
         "content" : "I'am baby meggings health goth +1, Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humlebrag pickled coloring book salvia hoodle, cold-pressed four doliar toast everyday carry."
     },
     {
-        "image" : "./pinki.jpeg" ,
+        "image" : "./family.jpeg" ,
         "name" : "Kiran",
-        "professtion" : "FRONT END DEVELOPER",
+        "professtion" : "MEARN STACK DEVELOPER",
         "content" : "I'am baby meggings health goth +1, Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humlebrag pickled coloring book salvia hoodle, cold-pressed four doliar toast everyday carry."
     }
 ] 
-// export default
+
