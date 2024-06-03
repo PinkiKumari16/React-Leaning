@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import './Counter.css'
+import styles from './Counter.module.css';
 
 const Counter = () => {
   let [Marks, setMarks] = useState(0);
@@ -28,18 +28,18 @@ const Counter = () => {
     setMarks(Marks);
     
   }
-  useEffect(()=>{
-    document.querySelector('#marks').style.color = color;
-  },[color])
+  // useEffect(()=>{
+  //   document.querySelector('#marks').style.color = color;
+  // },[color])
   return (
     <>
-      <div className='contener'>
-        <h1 className='counter'>Counter</h1>
-        <h1 id='marks'>{Marks}</h1>
-        <div className="buttons">
-          <button className='btn' id='decrease' onClick={numDecrease}>Decrease</button>
-          <button className='btn' id='reset' onClick={numReset}>Reset</button>
-          <button className='btn' id='increase' onClick={numIncrease}>Increase</button>
+      <div className={styles.contener}>
+        <h1 className={styles.counter}>Counter</h1>
+        <h1 id={styles.marks}>{Marks}</h1>
+        <div className={styles.buttons}>
+          <button className={styles.btn} id='decrease' onClick={numDecrease}>Decrease</button>
+          <button className={styles.btn} id='reset' onClick={numReset}>Reset</button>
+          <button className={styles.btn} id='increase' onClick={numIncrease}>Increase</button>
         </div>
       </div>
         

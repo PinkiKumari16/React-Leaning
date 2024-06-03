@@ -1,12 +1,12 @@
-import './Header.css'
+import styles from './Header.module.css'
 import React from 'react'
 
 export const Header = () => {
   return (
     <>
-        <nav className='header'>
+        <nav className={styles.header}>
             <h1>Flipper Color</h1>
-            <ul className='links'>
+            <ul className={styles.links}>
                 <li>Simple</li>
                 <li>Hexa</li>
             </ul>

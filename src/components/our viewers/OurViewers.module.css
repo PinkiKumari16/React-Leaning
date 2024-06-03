@@ -1,0 +1,54 @@
+.mainBox{
+    height: 55vh;
+    /* background-color: pink; */
+    margin: 10% 30% 10% 30%;
+    text-align: center;
+
+}
+.viewerBox{
+    height: 49vh;
+    margin-top: 1em;
+    background-color: #f3fafa;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5em;
+    padding: 1em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}
+.imageBox{
+    height: 17vh;
+    width: 21%;
+    background-color: rgb(142, 207, 226);
+    border-radius: 50%;
+    margin:2% 40% 0 40% ;
+    padding:5px 0 0 0px;
+}
+.image{
+    height: 17vh;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: fill;
+}
+.profession{
+    color: #71cc9f;
+}
+
+.surpriceBtn{
+    height: 3em;
+    margin: 0 40% 5% 40%;
+    border: 3px solid #71cc9f;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+}
+.btn{
+    font-size: 1.8em;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}

@@ -1,4 +1,4 @@
-import './Body.css';
+import styles from './Body.module.css';
 import React, { useEffect } from 'react'
 import {useState} from 'react'
  
@@ -30,11 +30,11 @@ export const Body = () => {
   return (
     <>
       <main>
-        <div className="dashboard">
-          <div className="background">
+        <div className={styles.dashboard}>
+          <div className={styles.background}>
             <h1>Background: <span>{backgroundcolor}</span></h1>
           </div>
-          <button className='btn' onClick={getRandomColor}>Change Color</button>
+          <button className={styles.btn} onClick={getRandomColor}>Change Color</button>
         </div>
       </main>
     </>
