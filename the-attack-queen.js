@@ -16,4 +16,5 @@ while(t){
     let[n,x,y] = input.question('n,x,y: ').split(' ').map(Number);
     console.log(attackCount(n,x,y))
     t--;
+    console.log('pinki');
 }
