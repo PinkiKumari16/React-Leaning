@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 2em;
+}
+.navBar{
+    height: 5vh;
+    background-color: #b2ecec;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em 2em 1em 2em;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    gap: 2em;
+    font-size: 1.5em;
+
+}
+li{
+    list-style: none;
+}
+.iconBox{
+    display: flex;
+    gap: 0.5em;
+}
+img{
+    height: 4vh;
+    border-radius: 50%;
+}
+.sideIcon{
+    display: none;
+    border-radius: 0;
+    border: 3px solid #acacee;
+    transition: transform 0.10s ease;
+}
+@media only screen and (max-width:1000px) {
+    .links{
+        display: none;
+    }
+    .iconBox{
+        display: none;
+    }
+    .sideIcon{
+        display: flex;
+    }
+}
+.rotate-90{
+    transform: rotate(90deg);
+}
+.link{
+    height: 5vh;
+    font-size: 1.5em;
+}

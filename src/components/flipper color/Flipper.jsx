@@ -1,10 +1,8 @@
 import React from 'react'
-import Header from './header/Header';
 import Body from './body/Body';
-export const Flipper = () => {
+const Flipper = () => {
   return (
     <>
-      <Header />
       <Body />
     </>
   )
