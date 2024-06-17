@@ -1,9 +1,10 @@
 import styles from './Body.module.css';
-import React, { useEffect } from 'react'
+import React, { useContext, useEffect } from 'react'
 import {useState} from 'react'
+import { colorValueContext } from '../contexts/ColorValue';
  
 export const Body = () => {
-  let [backgroundcolor, setBackgroundColor] = useState('#ffff')
+  let [backgroundcolor, setBackgroundColor] = useContext(colorValueContext)
   const colors = [0,1,2,3,4,5,6,7,8,9,'A','B','C','D','E','F'];
 
   let randomInd = ()=>{

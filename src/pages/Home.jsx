@@ -1,10 +1,10 @@
 import React from 'react'
-import Flipper from '../components/flipper color/Flipper'
+import Body from '../components/body/Body'
 
 export const Home = () => {
   return (
     <>
-        <Flipper />
+        <Body />
     </>
   )
 }

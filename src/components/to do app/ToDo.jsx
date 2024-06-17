@@ -5,6 +5,7 @@ export let ToDo = () => {
     let styles = {textAlign:"center", marginTop:'10%'};
     let [text, setText] = useState('');
     let [iteams, setIteams] = useState([]);
+    
     let handleSubmit = (e)=>{
         e.preventDefault();
         setIteams([...iteams, text])

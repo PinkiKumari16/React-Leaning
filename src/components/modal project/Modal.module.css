@@ -1,0 +1,73 @@
+.bg{
+    background-image: url('/background-image.png');
+    position: relative;
+    height: 92vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.4; */
+    /* z-index: 1; */
+}
+.firstBoxt, .secondBoxt{
+    height: 35%;
+    width: 35vw;
+    background-color: #fff;
+    position: fixed;
+    top: 35%;
+    left: 30%;
+    box-shadow:0 0 20px  #727070 ;
+    border-radius: 1em;
+    text-align: center;
+    
+}
+.bg2{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 92vh;
+    width: 100wh;
+    background-color: rgba(73, 200, 247, 0.4);
+    /* z-index: 1; */
+}
+.secondBoxt{
+    height: 25%;
+    top: 40%;
+    font-size: 0.8em;
+    display: flex;
+    opacity: 100%;
+}
+.heading, .head{
+    position: relative;
+    top: 20%;
+    font-size: 5em;
+
+}
+.head{
+    position: relative;
+    top: 30%;
+    left: 20%;
+}
+.btn{
+    position: relative;
+    top: 30%;
+    padding: 0.6em;
+    border-radius: 0.8em;
+    border: 3px solid #50b4db;
+    background-color: #50b4db;
+    color: #fff;
+    font-size: 1em;
+}
+.crossBtn{
+    font-size: 3em;
+    position: absolute;
+    top: 0.2em;
+    right: 0.4em;
+    font-weight: bolder;
+    color: #a70a0a;
+    border: none;
+    background-color: transparent;
+
+}
+.btn,.crossBtn:hover{
+    cursor: pointer;
+}
