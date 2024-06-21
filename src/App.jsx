@@ -10,6 +10,8 @@ import { Effect } from './components/custome hooks/Effect';
 import { Test } from './components/custome hooks/Test';
 import { UseReducer } from './components/use Reducer hook/UseReducer';
 import { ModalPage } from './pages/ModalPage';
+import { GeneralPage } from './pages/GeneralPage';
+
 
 
 
@@ -26,6 +28,7 @@ const App =()=>{
             <li><Link to='/oviewers'>Oviewers</Link></li>
             <li><Link to='/simple'>Simple Color</Link></li>
             <li><Link to='/modal project'>Modal Project</Link></li>
+            <li><Link to='/general question'>General Questions</Link></li>
           </ul>
         </nav>
         <Routes>
@@ -34,6 +37,7 @@ const App =()=>{
           <Route path='/oviewers' element={<Oviewers />} />
           <Route path='/simple' element={<SimplePage />} />
           <Route path='/modal project' element={<ModalPage />} />
+          <Route path='/general question' element={<GeneralPage />} />
         </Routes>
         </ColorValueProvider>
       </BrowserRouter>

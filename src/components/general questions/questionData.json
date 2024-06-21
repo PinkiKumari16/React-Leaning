@@ -1,0 +1,16 @@
+[
+    {
+        "questionData":"What is the useEffect hook?",
+        "answerData": "The useEffect hook in React allows you to perform side effects in function components. It can be used for data fetching, subscriptions, or manually changing the DOM. It runs after the first render and after every update if dependencies change."
+    },
+    {
+        "questionData":"What is async-await?",
+        "answerData": "async-await is a syntax in JavaScript for handling asynchronous operations. The async keyword declares an asynchronous function, and await pauses the function execution until a promise is resolved, making asynchronous code easier to read and write."
+    },
+    {
+        "questionData":"What is a promise?",
+        "answerData": "A promise in JavaScript represents an operation that hasn't completed yet but is expected in the future. It can be in one of three states: pending, fulfilled, or rejected. Promises allow for handling asynchronous operations and chaining multiple asynchronous calls."
+    }
+] 
+
+

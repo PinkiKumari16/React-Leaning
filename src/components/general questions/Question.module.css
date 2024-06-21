@@ -1,0 +1,53 @@
+.questionPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 92vh;
+    background: #B8E1FC;
+    background: radial-gradient(circle farthest-corner at center center, #B8E1FC 0%, #231421 100%);
+
+    
+}
+.mainBox{
+    margin-top: 5em;
+    padding: 1em;
+    text-align: center;
+    
+}
+.questionBox{
+    margin-top: 1.5em;
+    background-color: #f8f5f5;
+    width: 40rem;
+    border-radius: 0.5em;
+    padding: 1em;
+}
+.questionList{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.answerBox{
+    margin-top: 0.5em;
+    text-align: left;
+}
+.answer{
+    margin: 0.5em 0 0 0;
+}
+.rotate-90{
+    transform: rotate(180deg);
+}
+.icon{
+    transition: transform 0.5s ease;
+}
+.rotateAnimation{
+    animation: rotateAnimation 0.5s ease;
+}
+
+@keyframes rotateAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(180deg);
+    }
+}
