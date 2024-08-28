@@ -4,7 +4,8 @@ import Counter from '../components/counter/Counter'
 export const CounterPage = () => {
   return (
     <>
-        <Counter />
+      <Counter />
+      
     </>
   )
 }

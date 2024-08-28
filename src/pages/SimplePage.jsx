@@ -6,7 +6,7 @@ export const SimplePage = () => {
   const colors = ["green","red","rgba(133,122,200)","#f150"];
   useEffect(()=>{
     document.body.style.backgroundColor = backgroundColor;
-  })
+  },[backgroundColor])
 
   let getRandomColor = ()=>{
     let randomInd = Math.floor(Math.random()*colors.length)

@@ -1,9 +1,14 @@
 import { useEffect, useState } from 'react'
 import styles from './Counter.module.css';
+// import { Button } from './Button';
 
 const Counter = () => {
   let [Marks, setMarks] = useState(0);
   let [color, setColor] = useState('black');
+
+  let [number, setNumber] = useState(6);
+  let[inputValue, setInputValue] = useState()
+  // let nums = [1,2,3,4,5,6,7,8,9,'C',0,"AC"];
 
   let numDecrease = ()=>{
     if(--Marks <0){
@@ -42,6 +47,14 @@ const Counter = () => {
           <button className={styles.btn} id='increase' onClick={numIncrease}>Increase</button>
         </div>
       </div>
+      <div className={styles.contener}>
+        <input className={styles.inputBox} value={inputValue} onChange={(e)=>setInputValue(e.target.value)}></input>
+        <h1>{number}</h1>
+        <button onClick={()=>setNumber(number+(+inputValue))}>Increament</button>
+        <button onClick={()=>setNumber(number-(+inputValue))}>Decreament</button>
+        <button onClick={()=>setNumber(+inputValue)}>Reset</button>
+      </div>
+
         
     </>
   )
