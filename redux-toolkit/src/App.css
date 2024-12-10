@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    /* padding: 0; */
+    text-align: center;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+
+}
+
+.app{
+    display:  flex;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    padding: 0 25px 0 25px;
+    height: 8vh;
+    width: 100vw;
+    background-color: rgb(171, 204, 193);
+    line-height: 8vh;
+}
+.contaner{
+    /* border: 2px solid rebeccapurple; */
+    width: 80%;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.product{
+    height: 21vh;
+    width: 20vw;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.image{
+    background-size:cover;
+    flex-shrink: 0;
+    height: 100%;
+    width: 50%;
+}
+.details{
+    padding: 0.5em 0.5em 0 0;
+}
+.Btn{
+    padding: 5px;
+    margin: 10px 0 0 0;
+    background-color: rgb(163, 243, 156);
+    border: 2px solid rgb(126, 98, 153);
+    border-radius: 6px;
+    cursor: pointer;
+    
+}
+.btns{
+    display: flex;
+    gap: 5px;
+}
+.sidebar{
+    border: 2px solid rgb(36, 73, 31);
+    width: 20%;
+    height: 80vh;
+    margin: 2rem 3rem;
+   
+}
+
+.box{
+    padding: 10px;
+    border: 2px solid rgb(163, 216, 163);
+    height: 10em;
+    font-size: 1.5rem;
+    color: rgb(26, 27, 104);  
+}
+.counter{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2em;
+}
+.btn{
+    padding: 0 20px;
+    font-size: larger;
+}

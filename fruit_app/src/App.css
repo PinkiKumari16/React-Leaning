@@ -1,0 +1,77 @@
+*{
+  margin: 0px;
+  padding: 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;  /* Remove default margin */
+  overflow-x: hidden;  /* Disable horizontal scroll */
+  overflow-y: auto;    /* Enable vertical scroll if needed */
+}
+
+.app{
+  display:  flex;
+  width: 100%;
+}
+
+
+.navbar{
+  display: flex;
+  justify-content:space-between;
+  padding: 0 25px 0 25px;
+  height: 8vh;
+  width: 100vw;
+  background-color: rgb(171, 204, 193);
+  line-height: 8vh;
+}
+.contaner{
+  /* border: 2px solid rebeccapurple; */
+  width: 80%;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.product{
+  height: 21vh;
+  width: 20vw;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+.image{
+  background-size:cover;
+  flex-shrink: 0;
+  height: 100%;
+  width: 50%;
+}
+.details{
+  padding: 0.5em 0.5em 0 0;
+}
+.sidebar{
+  padding: 10px;
+  border: 2px solid rgb(36, 73, 31);
+  background-color: rgb(201, 247, 211);
+  width: 20%;
+  height: 10em;
+  margin: 2rem 3rem;
+  font-size: 1.5rem;
+  color: rgb(26, 27, 104);
+}
+
+.Btn{
+  padding: 5px;
+  margin: 10px 0 0 0;
+  background-color: rgb(163, 243, 156);
+  border: 2px solid rgb(126, 98, 153);
+  border-radius: 6px;
+  cursor: pointer;
+  
+}
+.btns{
+  display: flex;
+  gap: 5px;
+}

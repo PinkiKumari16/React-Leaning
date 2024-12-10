@@ -1,0 +1,48 @@
+[
+    {
+      "name": "Apple",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/265px-Red_Apple.jpg",
+      "price": 35
+    },
+    {
+      "name": "Banana",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Bananas_white_background_DS.jpg/320px-Bananas_white_background_DS.jpg",
+      "price": 12
+    },
+    {
+      "name": "Grapes",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Table_grapes_on_white.jpg/320px-Table_grapes_on_white.jpg",
+      "price": 45
+    },
+    {
+      "name": "Pineapple",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Pineapple_and_cross_section.jpg/286px-Pineapple_and_cross_section.jpg",
+      "price": 200
+    },
+    {
+      "name": "Orange",
+      "image": "https://plus.unsplash.com/premium_photo-1675667408018-3b64dbc55db1?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "price": 30
+    },
+    {
+      "name": "Mango",
+      "image": "https://media.istockphoto.com/id/1160199541/photo/sliced-mangos-in-a-wooden-plate-on-a-table-in-rustic-kitchen.jpg?s=1024x1024&w=is&k=20&c=xJcjVgqmVc7UF2BJQSRzVjzNs85ihO0f6kPdWXKs42E=",
+      "price": 80
+    },
+    {
+      "name": "Avocado",
+      "image": "https://media.istockphoto.com/id/1022212368/photo/avocado.jpg?s=1024x1024&w=is&k=20&c=TrupqFMPyv4VSVXyxocY3VsTHazT46FNtPpqkR-Z2fo=",
+      "price": 120
+    },
+    {
+      "name": "Cherry",
+      "image": "https://media.istockphoto.com/id/157428769/photo/cherry-trio-with-stem-and-leaf.jpg?s=1024x1024&w=is&k=20&c=PGrash4kROBaeSWYY63VS-wyVqiVHPA6LsPMoeAzms8=",
+      "price": 120
+    },
+    {
+      "name": "Papaya",
+      "image": "https://images.unsplash.com/photo-1623492229905-ebc1202e8904?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "price": 55
+    }
+]
+  
